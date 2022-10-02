@@ -8,8 +8,8 @@ lCTransfer = tf([1], [L*C 0 1])
 % RLC Network Transfer
 rLCTransfer = tf([1], [L*C L/R 1])
 
-% bode(transfer)
+bode(lCTransfer)
 grid on
 
- bode(rLCTransfer)
+%bode(rLCTransfer)
 grid on
