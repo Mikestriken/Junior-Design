@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : conn6.dra                                     )
+(    Software Version : 17.4S016                                      )
+(    Date/Time        : Thu Apr 15 21:38:41 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/alipa/Desktop/Example/Footprints
+    Name      = conn6.psm
+    User      = alipa
+    Machine   = PARSA
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,3 +1,11 @@
+# ------------ Altium ------------
+__Previews
+History/
+* Logs*
+Project Outputs *
+*.DSNlck
+
+# ------------ MatLab ------------
 # Windows default autosave extension
 *.asv
 

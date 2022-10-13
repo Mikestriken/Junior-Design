@@ -1,0 +1,50 @@
+(ExpressProject "Example"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S016 (3926987)  [3/13/2021]-[04/05/21]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\example.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (MPSSessionName "alipa")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\example.dsn")
+      (Path "Design Resources" ".\example.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\example.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 573"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 5 24 24")
+        (Scroll "-141 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\ALIPA\DESKTOP\EXAMPLE\EXAMPLE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

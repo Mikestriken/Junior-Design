@@ -1,0 +1,102 @@
+\t (00:00:04) allegro 17.4 S016 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Tue Apr 27 17:22:00 2021
+\t (00:00:04)         Host=PARSA User=alipa Pid=12328 CPUs=8
+\t (00:00:04) CmdLine= c:\cadence\spb_17.4\tools\bin\allegro.exe C:\Users\alipa\Desktop\Example\Footprints\0805.dra
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\i (00:00:09) fillin no 
+\t (00:00:09) Starting new design...
+\i (00:00:10) trapsize 116667
+\i (00:00:10) generaledit 
+\i (00:06:06) exit 
+\t (00:06:06)     Journal end - Tue Apr 27 17:28:03 2021
+apsize 1998
+\i (00:00:06) trapsize 2060
+\i (00:00:06) trapsize 1998
+\i (00:00:06) trapsize 2053
+\i (00:00:06) trapsize 2053
+\i (00:00:06) generaledit 
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 134.714 -59.270
+\i (00:00:41) trapsize 4107
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 134.715 -59.269
+\i (00:00:42) trapsize 2053
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 35.329 -42.841
+\i (00:00:43) trapsize 4107
+\i (00:00:51) zoom in 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom in 64.078 -41.198
+\i (00:00:51) trapsize 2053
+\i (00:00:51) zoom in 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom in 64.078 -41.198
+\i (00:00:51) trapsize 1027
+\i (00:00:52) zoom out 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom out 63.872 -41.198
+\i (00:00:52) trapsize 2053
+\i (00:01:18) new 
+\i (00:01:55) newdrawfillin "sample.dra" "Package Symbol (Wizard)"
+\t (00:01:55) Starting new design...
+\i (00:01:55) trapsize 10327
+\i (00:01:55) trapsize 10657
+\i (00:01:55) trapsize 10327
+\t (00:01:55) Grids are drawn 800.000, 800.000 apart for enhanced viewing.
+\i (00:01:55) trapsize 12257
+\i (00:01:55) trapsize 12257
+\i (00:01:55) trapsize 11712
+\i (00:01:55) package symbol wizard 
+   (00:01:58) Loading cmds.cxt 
+\i (00:01:58) setwindow form.sym_wizard
+\i (00:01:58) FORM sym_wizard soic YES 
+\i (00:01:59) FORM sym_wizard plcc YES 
+\i (00:02:00) FORM sym_wizard bga YES 
+\i (00:02:01) FORM sym_wizard rca_th YES 
+\i (00:02:02) FORM sym_wizard rca_smd YES 
+\i (00:02:03) FORM sym_wizard sip YES 
+\i (00:02:04) FORM sym_wizard zip YES 
+\i (00:02:04) FORM sym_wizard rf_symbol YES 
+\i (00:02:05) FORM sym_wizard sip YES 
+\i (00:02:06) FORM sym_wizard rca_smd YES 
+\i (00:02:06) FORM sym_wizard rca_th YES 
+\i (00:02:07) FORM sym_wizard bga YES 
+\i (00:02:08) FORM sym_wizard wiz_next  
+\i (00:02:14) FORM sym_wizard load_template  
+\t (00:02:14) Opening existing design...
+\t (00:02:14) Grids are drawn 200, 200 apart for enhanced viewing.
+\i (00:02:14) setwindow pcb
+\i (00:02:14) trapsize 175
+\i (00:02:14) trapsize 180
+\i (00:02:14) trapsize 175
+\t (00:02:14) Grids are drawn 200, 200 apart for enhanced viewing.
+\i (00:02:14) trapsize 203
+\d (00:02:14) Design opened: c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:02:14) trapsize 194
+\i (00:02:17) setwindow form.sym_wizard
+\i (00:02:17) FORM sym_wizard wiz_next  
+\i (00:02:24) FORM sym_wizard wiz_next  
+\i (00:02:24) FORM sym_wizard wiz_next  
+\i (00:02:25) FORM sym_wizard wiz_back  
+\i (00:02:32) FORM sym_wizard wiz_next  
+\i (00:02:45) FORM sym_wizard wiz_next  
+\i (00:03:00) FORM sym_wizard wiz_next  
+\i (00:03:02) FORM sym_wizard wiz_back  
+\i (00:03:05) FORM sym_wizard cancel  
+\t (00:03:05) Starting new design...
+\i (00:03:05) setwindow pcb
+\i (00:03:05) trapsize 175
+\i (00:03:05) trapsize 180
+\i (00:03:05) trapsize 175
+\t (00:03:05) Grids are drawn 12800, 12800 apart for enhanced viewing.
+\i (00:03:05) trapsize 203
+\i (00:03:05) trapsize 203
+\i (00:03:05) trapsize 194
+\i (00:03:05) generaledit 
+\i (00:03:07) exit 
+\t (00:03:08)     Journal end - Tue Apr 27 17:25:23 2021
