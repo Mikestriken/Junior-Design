@@ -13,3 +13,6 @@ grid on
 
  bode(rLCTransfer)
 grid on
+
+% Simulated Transfer
+sys = tfest(estsys1,2)
