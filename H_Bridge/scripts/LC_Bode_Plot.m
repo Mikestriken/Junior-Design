@@ -1,4 +1,4 @@
-L=2.5e-3
+L = 2.5e-3
 C=2e-6
 R=2.2
 
@@ -15,4 +15,4 @@ grid on
 grid on
 
 % Simulated Transfer
-sys = tfest(estsys1,2)
+sys = tfest(estsys2,2)
