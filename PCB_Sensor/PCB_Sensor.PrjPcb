@@ -117,10 +117,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CUIINJUM
 
 [GeneratedDocument1]
-DocumentPath=
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for PCB_Sensor\PCB_Sensor.NET
 DItemRevisionGUID=
 
