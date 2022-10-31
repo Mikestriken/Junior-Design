@@ -15,4 +15,4 @@ grid on
 grid on
 
 % Simulated Transfer
-sys = tfest(estsys2,2)
+sys = tfest(estsys1,2)
