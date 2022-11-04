@@ -117,7 +117,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CUIINJUM
 
 [Document5]
-DocumentPath=Gerber.Cam
+DocumentPath=NC_DRILL.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -134,7 +134,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=NC_DRILL.Cam
+DocumentPath=Gerber.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
