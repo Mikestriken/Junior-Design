@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'eMbEdEdSyStEmS'.
  *
- * Model version                  : 1.1
+ * Model version                  : 1.7
  * Simulink Coder version         : 9.8 (R2022b) 13-May-2022
- * C/C++ source code generated on : Wed Dec  7 14:46:22 2022
+ * C/C++ source code generated on : Wed Dec  7 15:21:34 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Texas Instruments->C2000
@@ -32,7 +32,7 @@ void eMbEdEdSyStEmS_step(void)
 {
   /* Logic: '<Root>/NOT1' incorporates:
    *  Constant: '<Root>/Constant'
-   *  Logic: '<Root>/NOT'
+   *  Logic: '<Root>/NOT2'
    */
   eMbEdEdSyStEmS_B.NOT1 = !(eMbEdEdSyStEmS_P.Constant_Value != 0.0);
 
@@ -46,9 +46,9 @@ void eMbEdEdSyStEmS_step(void)
   }
 
   /* Logic: '<Root>/NOT1' incorporates:
-   *  Constant: '<Root>/Constant1'
+   *  Constant: '<Root>/Constant'
    */
-  eMbEdEdSyStEmS_B.NOT1 = !(eMbEdEdSyStEmS_P.Constant1_Value != 0.0);
+  eMbEdEdSyStEmS_B.NOT1 = !(eMbEdEdSyStEmS_P.Constant_Value != 0.0);
 
   /* S-Function (c280xgpio_do): '<Root>/Digital Output1' */
   {
@@ -85,10 +85,10 @@ void eMbEdEdSyStEmS_initialize(void)
   eMbEdEdSyStEmS_M->Timing.stepSize0 = 0.2;
 
   /* External mode info */
-  eMbEdEdSyStEmS_M->Sizes.checksums[0] = (3263342886U);
-  eMbEdEdSyStEmS_M->Sizes.checksums[1] = (2226791934U);
-  eMbEdEdSyStEmS_M->Sizes.checksums[2] = (57742325U);
-  eMbEdEdSyStEmS_M->Sizes.checksums[3] = (4225082568U);
+  eMbEdEdSyStEmS_M->Sizes.checksums[0] = (2370122335U);
+  eMbEdEdSyStEmS_M->Sizes.checksums[1] = (2095433246U);
+  eMbEdEdSyStEmS_M->Sizes.checksums[2] = (4013652453U);
+  eMbEdEdSyStEmS_M->Sizes.checksums[3] = (3881679881U);
 
   {
     static const sysRanDType rtAlwaysEnabled = SUBSYS_RAN_BC_ENABLE;

@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'eMbEdEdSyStEmS'.
  *
- * Model version                  : 1.1
+ * Model version                  : 1.7
  * Simulink Coder version         : 9.8 (R2022b) 13-May-2022
- * C/C++ source code generated on : Wed Dec  7 14:46:22 2022
+ * C/C++ source code generated on : Wed Dec  7 15:21:34 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Texas Instruments->C2000
@@ -24,12 +24,7 @@ P_eMbEdEdSyStEmS_T eMbEdEdSyStEmS_P = {
   /* Expression: 1
    * Referenced by: '<Root>/Constant'
    */
-  1.0,
-
-  /* Expression: 0
-   * Referenced by: '<Root>/Constant1'
-   */
-  0.0
+  1.0
 };
 
 /*

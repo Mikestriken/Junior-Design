@@ -7,9 +7,9 @@
  *
  * Code generation for model "eMbEdEdSyStEmS".
  *
- * Model version              : 1.1
+ * Model version              : 1.7
  * Simulink Coder version : 9.8 (R2022b) 13-May-2022
- * C source code generated on : Wed Dec  7 14:46:22 2022
+ * C source code generated on : Wed Dec  7 15:21:34 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Texas Instruments->C2000

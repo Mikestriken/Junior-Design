@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'eMbEdEdSyStEmS'.
  *
- * Model version                  : 1.1
+ * Model version                  : 1.7
  * Simulink Coder version         : 9.8 (R2022b) 13-May-2022
- * C/C++ source code generated on : Wed Dec  7 14:46:22 2022
+ * C/C++ source code generated on : Wed Dec  7 15:21:34 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Texas Instruments->C2000
@@ -83,9 +83,6 @@ struct P_eMbEdEdSyStEmS_T_ {
   real_T Constant_Value;               /* Expression: 1
                                         * Referenced by: '<Root>/Constant'
                                         */
-  real_T Constant1_Value;              /* Expression: 0
-                                        * Referenced by: '<Root>/Constant1'
-                                        */
 };
 
 /* Real-time Model Data Structure */
@@ -141,6 +138,17 @@ extern void eMbEdEdSyStEmS_terminate(void);
 extern RT_MODEL_eMbEdEdSyStEmS_T *const eMbEdEdSyStEmS_M;
 extern volatile boolean_T stopRequested;
 extern volatile boolean_T runModel;
+
+/*-
+ * These blocks were eliminated from the model due to optimizations:
+ *
+ * Block '<Root>/Constant2' : Unused code path elimination
+ * Block '<Root>/Constant3' : Unused code path elimination
+ * Block '<Root>/Constant4' : Unused code path elimination
+ * Block '<Root>/Product' : Unused code path elimination
+ * Block '<Root>/Sin' : Unused code path elimination
+ * Block '<Root>/Sum' : Unused code path elimination
+ */
 
 /*-
  * The generated code includes comments that allow you to trace directly
