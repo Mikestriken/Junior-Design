@@ -38,6 +38,11 @@
 <location>C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/MW_c28xx_board.c</location>
 </link>
 <link>
+<name>MW_c28xx_pwm.c</name>
+<type>1</type>
+<location>C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/MW_c28xx_pwm.c</location>
+</link>
+<link>
 <name>eMbEdEdSyStEmS.c</name>
 <type>1</type>
 <location>C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/eMbEdEdSyStEmS.c</location>

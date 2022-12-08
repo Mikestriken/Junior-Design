@@ -3,6 +3,10 @@ ert_main.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEd
 ert_main.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\rtwtypes.h
 ert_main.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_extmode.h
 ert_main.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/sysran_types.h
+ert_main.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_continuous.h
+ert_main.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_solver.h
+ert_main.obj: C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/ext_mode/include/ext_mode.h
+ert_main.obj: C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/ext_mode_types.h
 ert_main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/src/c2000BoardSupport.h
 ert_main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/stdbool.h
 ert_main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/_ti_config.h
@@ -75,6 +79,8 @@ ert_main.obj: C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_ints.h
 ert_main.obj: C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_pie.h
 ert_main.obj: C:/ti/c2000/C2000W~1/DRIVER~1/f2837xd/DRIVER~1/dma.h
 ert_main.obj: C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_dma.h
+ert_main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/inc/IQmathLib.h
+ert_main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/limits.h
 ert_main.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\eMbEdEdSyStEmS_types.h
 ert_main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/string.h
 ert_main.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\MW_target_hardware_resources.h
@@ -85,11 +91,8 @@ ert_main.obj: C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/slave/platf
 ert_main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/inc/xcp_platform_custom.h
 ert_main.obj: C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/MW_target_hardware_resources.h
 ert_main.obj: C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/slave/protocol/src/xcp_cfg.h
-ert_main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/limits.h
 ert_main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/stdio.h
 ert_main.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/src/c2000SchedulerTimer.h
-ert_main.obj: C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/ext_mode/include/ext_mode.h
-ert_main.obj: C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/ext_mode_types.h
 ert_main.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\MW_target_hardware_resources.h
 
 C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/ert_main.c:
@@ -97,6 +100,10 @@ C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\rtwtypes.h:
 C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_extmode.h:
 C:/PROGRA~1/MATLAB/R2022b/simulink/include/sysran_types.h:
+C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_continuous.h:
+C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_solver.h:
+C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/ext_mode/include/ext_mode.h:
+C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/ext_mode_types.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/src/c2000BoardSupport.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/stdbool.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/_ti_config.h:
@@ -169,6 +176,8 @@ C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_ints.h:
 C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_pie.h:
 C:/ti/c2000/C2000W~1/DRIVER~1/f2837xd/DRIVER~1/dma.h:
 C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_dma.h:
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/inc/IQmathLib.h:
+C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/limits.h:
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\eMbEdEdSyStEmS_types.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/string.h:
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\MW_target_hardware_resources.h:
@@ -179,10 +188,7 @@ C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/slave/platform/include/xc
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/inc/xcp_platform_custom.h:
 C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/MW_target_hardware_resources.h:
 C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/slave/protocol/src/xcp_cfg.h:
-C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/limits.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/stdio.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/src/c2000SchedulerTimer.h:
-C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/ext_mode/include/ext_mode.h:
-C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/ext_mode_types.h:
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\MW_target_hardware_resources.h:
 

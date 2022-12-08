@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'eMbEdEdSyStEmS'.
  *
- * Model version                  : 1.7
+ * Model version                  : 1.10
  * Simulink Coder version         : 9.8 (R2022b) 13-May-2022
- * C/C++ source code generated on : Wed Dec  7 15:21:34 2022
+ * C/C++ source code generated on : Wed Dec  7 18:32:46 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Texas Instruments->C2000
@@ -24,8 +24,12 @@
 #include "rtwtypes.h"
 #include "rtw_extmode.h"
 #include "sysran_types.h"
+#include "rtw_continuous.h"
+#include "rtw_solver.h"
+#include "ext_mode.h"
 #include "c2000BoardSupport.h"
 #include "MW_f2837xD_includes.h"
+#include "IQmathLib.h"
 #endif                                 /* eMbEdEdSyStEmS_COMMON_INCLUDES_ */
 
 #include "eMbEdEdSyStEmS_types.h"
@@ -62,7 +66,7 @@
 #endif
 
 #ifndef rtmGetT
-#define rtmGetT(rtm)                   ((rtm)->Timing.taskTime0)
+#define rtmGetT(rtm)                   (rtmGetTPtr((rtm))[0])
 #endif
 
 #ifndef rtmGetTFinal
@@ -70,18 +74,43 @@
 #endif
 
 #ifndef rtmGetTPtr
-#define rtmGetTPtr(rtm)                (&(rtm)->Timing.taskTime0)
+#define rtmGetTPtr(rtm)                ((rtm)->Timing.t)
 #endif
 
-/* Block signals (default storage) */
-typedef struct {
-  boolean_T NOT1;                      /* '<Root>/NOT1' */
-} B_eMbEdEdSyStEmS_T;
+extern void config_ePWMSyncSource(void);
+extern void config_ePWMSyncSource(void);
+extern void config_ePWM_GPIO (void);
+extern void config_ePWM_TBSync (void);
+extern void config_ePWM_GPIO (void);
+extern void config_ePWM_XBAR(void);
+extern void config_ePWM_TBSync(void);
 
 /* Parameters (default storage) */
 struct P_eMbEdEdSyStEmS_T_ {
-  real_T Constant_Value;               /* Expression: 1
+  real_T RepeatingSequence_rep_seq_y[2];
+                                  /* Mask Parameter: RepeatingSequence_rep_seq_y
+                                   * Referenced by: '<S1>/Look-Up Table1'
+                                   */
+  real_T Constant4_Value;              /* Expression: .5
+                                        * Referenced by: '<Root>/Constant4'
+                                        */
+  real_T Constant2_Value;              /* Expression: .7
+                                        * Referenced by: '<Root>/Constant2'
+                                        */
+  real_T Constant_Value;               /* Expression: 2*pi*60
                                         * Referenced by: '<Root>/Constant'
+                                        */
+  real_T Constant_Value_i;             /* Expression: period
+                                        * Referenced by: '<S1>/Constant'
+                                        */
+  real_T LookUpTable1_bp01Data[2];     /* Expression: rep_seq_t - min(rep_seq_t)
+                                        * Referenced by: '<S1>/Look-Up Table1'
+                                        */
+  real_T Constant3_Value;              /* Expression: .5
+                                        * Referenced by: '<Root>/Constant3'
+                                        */
+  real_T Gain_Gain;                    /* Expression: 2500
+                                        * Referenced by: '<Root>/Gain'
                                         */
 };
 
@@ -89,6 +118,7 @@ struct P_eMbEdEdSyStEmS_T_ {
 struct tag_RTM_eMbEdEdSyStEmS_T {
   const char_T *errorStatus;
   RTWExtModeInfo *extModeInfo;
+  RTWSolverInfo solverInfo;
 
   /*
    * Sizes:
@@ -115,19 +145,19 @@ struct tag_RTM_eMbEdEdSyStEmS_T {
    * the timing information for the model.
    */
   struct {
-    time_T taskTime0;
     uint32_T clockTick0;
     time_T stepSize0;
+    uint32_T clockTick1;
     time_T tFinal;
+    SimTimeStep simTimeStep;
     boolean_T stopRequestedFlag;
+    time_T *t;
+    time_T tArray[2];
   } Timing;
 };
 
 /* Block parameters (default storage) */
 extern P_eMbEdEdSyStEmS_T eMbEdEdSyStEmS_P;
-
-/* Block signals (default storage) */
-extern B_eMbEdEdSyStEmS_T eMbEdEdSyStEmS_B;
 
 /* Model entry point functions */
 extern void eMbEdEdSyStEmS_initialize(void);
@@ -142,12 +172,7 @@ extern volatile boolean_T runModel;
 /*-
  * These blocks were eliminated from the model due to optimizations:
  *
- * Block '<Root>/Constant2' : Unused code path elimination
- * Block '<Root>/Constant3' : Unused code path elimination
- * Block '<Root>/Constant4' : Unused code path elimination
- * Block '<Root>/Product' : Unused code path elimination
- * Block '<Root>/Sin' : Unused code path elimination
- * Block '<Root>/Sum' : Unused code path elimination
+ * Block '<S1>/Output' : Eliminate redundant signal conversion block
  */
 
 /*-
@@ -165,6 +190,7 @@ extern volatile boolean_T runModel;
  * Here is the system hierarchy for this model
  *
  * '<Root>' : 'eMbEdEdSyStEmS'
+ * '<S1>'   : 'eMbEdEdSyStEmS/Repeating Sequence'
  */
 #endif                                 /* RTW_HEADER_eMbEdEdSyStEmS_h_ */
 

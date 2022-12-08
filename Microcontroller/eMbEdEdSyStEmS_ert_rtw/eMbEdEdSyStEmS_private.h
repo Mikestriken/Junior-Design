@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'eMbEdEdSyStEmS'.
  *
- * Model version                  : 1.7
+ * Model version                  : 1.10
  * Simulink Coder version         : 9.8 (R2022b) 13-May-2022
- * C/C++ source code generated on : Wed Dec  7 15:21:34 2022
+ * C/C++ source code generated on : Wed Dec  7 18:32:46 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Texas Instruments->C2000
@@ -22,11 +22,28 @@
 #include "rtwtypes.h"
 #include "multiword_types.h"
 #include "eMbEdEdSyStEmS_types.h"
+#include "eMbEdEdSyStEmS.h"
 
 /* Private macros used by the generated code to access rtModel */
+#ifndef rtmIsMajorTimeStep
+#define rtmIsMajorTimeStep(rtm)        (((rtm)->Timing.simTimeStep) == MAJOR_TIME_STEP)
+#endif
+
+#ifndef rtmIsMinorTimeStep
+#define rtmIsMinorTimeStep(rtm)        (((rtm)->Timing.simTimeStep) == MINOR_TIME_STEP)
+#endif
+
 #ifndef rtmSetTFinal
 #define rtmSetTFinal(rtm, val)         ((rtm)->Timing.tFinal = (val))
 #endif
+
+#ifndef rtmSetTPtr
+#define rtmSetTPtr(rtm, val)           ((rtm)->Timing.t = (val))
+#endif
+
+extern real_T look1_binlxpw(real_T u0, const real_T bp0[], const real_T table[],
+  uint32_T maxIndex);
+
 #endif                                /* RTW_HEADER_eMbEdEdSyStEmS_private_h_ */
 
 /*

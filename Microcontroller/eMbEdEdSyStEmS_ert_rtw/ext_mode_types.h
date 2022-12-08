@@ -7,9 +7,9 @@
  *
  * Code generation for model "eMbEdEdSyStEmS".
  *
- * Model version              : 1.7
+ * Model version              : 1.10
  * Simulink Coder version : 9.8 (R2022b) 13-May-2022
- * C source code generated on : Wed Dec  7 15:21:34 2022
+ * C source code generated on : Wed Dec  7 18:32:46 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Texas Instruments->C2000
@@ -52,7 +52,7 @@ typedef real_T extmodeClassicTriggerSignal_T;
 #define EXTMODE_STEP_SIZE_IN_MICROSECONDS 200000
 
 /** External Mode Base rate event id */
-#define EXTMODE_BASE_RATE_EVENT_ID     0
+#define EXTMODE_BASE_RATE_EVENT_ID     1
 
 /** External Mode Max Event Id */
 #define EXTMODE_MAX_EVENT_ID           0xFF

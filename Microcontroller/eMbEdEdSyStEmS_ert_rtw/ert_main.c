@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'eMbEdEdSyStEmS'.
  *
- * Model version                  : 1.7
+ * Model version                  : 1.10
  * Simulink Coder version         : 9.8 (R2022b) 13-May-2022
- * C/C++ source code generated on : Wed Dec  7 15:21:34 2022
+ * C/C++ source code generated on : Wed Dec  7 18:32:46 2022
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Texas Instruments->C2000
@@ -27,8 +27,6 @@ volatile int IsrOverrun = 0;
 static boolean_T OverrunFlag = 0;
 void rt_OneStep(void)
 {
-  extmodeSimulationTime_T currentTime = (extmodeSimulationTime_T) 0;
-
   /* Check for overrun. Protect OverrunFlag against preemption */
   if (OverrunFlag++) {
     IsrOverrun = 1;
@@ -37,13 +35,9 @@ void rt_OneStep(void)
   }
 
   enableTimer0Interrupt();
-  currentTime = (extmodeSimulationTime_T) eMbEdEdSyStEmS_M->Timing.clockTick0;
   eMbEdEdSyStEmS_step();
 
   /* Get model outputs here */
-
-  /* Trigger External Mode event */
-  extmodeEvent(0, currentTime);
   disableTimer0Interrupt();
   OverrunFlag--;
 }
@@ -105,6 +99,7 @@ int main(void)
   runModel = !extmodeSimulationComplete() && !extmodeStopRequested() &&
     !rtmGetStopRequested(eMbEdEdSyStEmS_M);
   enableTimer0Interrupt();
+  config_ePWM_TBSync();
   globalInterruptEnable();
   while (runModel) {
     /* Run External Mode background activities */

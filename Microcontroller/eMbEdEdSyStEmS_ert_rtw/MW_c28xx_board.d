@@ -75,6 +75,12 @@ MW_c28xx_board.obj: C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_dma.h
 MW_c28xx_board.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\eMbEdEdSyStEmS.h
 MW_c28xx_board.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_extmode.h
 MW_c28xx_board.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/sysran_types.h
+MW_c28xx_board.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_continuous.h
+MW_c28xx_board.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_solver.h
+MW_c28xx_board.obj: C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/ext_mode/include/ext_mode.h
+MW_c28xx_board.obj: C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/ext_mode_types.h
+MW_c28xx_board.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/inc/IQmathLib.h
+MW_c28xx_board.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/limits.h
 MW_c28xx_board.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\eMbEdEdSyStEmS_types.h
 MW_c28xx_board.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/string.h
 MW_c28xx_board.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\MW_target_hardware_resources.h
@@ -159,6 +165,12 @@ C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_dma.h:
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\eMbEdEdSyStEmS.h:
 C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_extmode.h:
 C:/PROGRA~1/MATLAB/R2022b/simulink/include/sysran_types.h:
+C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_continuous.h:
+C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_solver.h:
+C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/ext_mode/include/ext_mode.h:
+C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/ext_mode_types.h:
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/inc/IQmathLib.h:
+C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/limits.h:
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\eMbEdEdSyStEmS_types.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/string.h:
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\MW_target_hardware_resources.h:

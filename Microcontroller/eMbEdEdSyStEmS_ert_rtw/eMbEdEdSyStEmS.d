@@ -3,6 +3,10 @@ eMbEdEdSyStEmS.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller
 eMbEdEdSyStEmS.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\rtwtypes.h
 eMbEdEdSyStEmS.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_extmode.h
 eMbEdEdSyStEmS.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/sysran_types.h
+eMbEdEdSyStEmS.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_continuous.h
+eMbEdEdSyStEmS.obj: C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_solver.h
+eMbEdEdSyStEmS.obj: C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/ext_mode/include/ext_mode.h
+eMbEdEdSyStEmS.obj: C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/ext_mode_types.h
 eMbEdEdSyStEmS.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/src/c2000BoardSupport.h
 eMbEdEdSyStEmS.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/stdbool.h
 eMbEdEdSyStEmS.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/_ti_config.h
@@ -75,10 +79,15 @@ eMbEdEdSyStEmS.obj: C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_ints.h
 eMbEdEdSyStEmS.obj: C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_pie.h
 eMbEdEdSyStEmS.obj: C:/ti/c2000/C2000W~1/DRIVER~1/f2837xd/DRIVER~1/dma.h
 eMbEdEdSyStEmS.obj: C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_dma.h
+eMbEdEdSyStEmS.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/inc/IQmathLib.h
+eMbEdEdSyStEmS.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/limits.h
 eMbEdEdSyStEmS.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\eMbEdEdSyStEmS_types.h
 eMbEdEdSyStEmS.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/string.h
 eMbEdEdSyStEmS.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\MW_target_hardware_resources.h
 eMbEdEdSyStEmS.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/src/c2000SchedulerTimer.h
+eMbEdEdSyStEmS.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/math.h
+eMbEdEdSyStEmS.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/_defs.h
+eMbEdEdSyStEmS.obj: C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/machine/_limits.h
 eMbEdEdSyStEmS.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\eMbEdEdSyStEmS_private.h
 eMbEdEdSyStEmS.obj: C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\multiword_types.h
 
@@ -87,6 +96,10 @@ C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\rtwtypes.h:
 C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_extmode.h:
 C:/PROGRA~1/MATLAB/R2022b/simulink/include/sysran_types.h:
+C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_continuous.h:
+C:/PROGRA~1/MATLAB/R2022b/simulink/include/rtw_solver.h:
+C:/PROGRA~1/MATLAB/R2022b/toolbox/coder/xcp/src/target/ext_mode/include/ext_mode.h:
+C:/Users/micha/Desktop/Classes/Junior-Design/Microcontroller/eMbEdEdSyStEmS_ert_rtw/ext_mode_types.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/src/c2000BoardSupport.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/stdbool.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/_ti_config.h:
@@ -159,10 +172,15 @@ C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_ints.h:
 C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_pie.h:
 C:/ti/c2000/C2000W~1/DRIVER~1/f2837xd/DRIVER~1/dma.h:
 C:\ti\c2000\C2000W~1\DRIVER~1\f2837xd\DRIVER~1\inc/hw_dma.h:
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/inc/IQmathLib.h:
+C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/limits.h:
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\eMbEdEdSyStEmS_types.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/string.h:
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\MW_target_hardware_resources.h:
 C:/PROGRA~3/MATLAB/SUPPOR~1/R2022b/toolbox/shared/SUPPOR~1/tic2000/src/c2000SchedulerTimer.h:
+C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/math.h:
+C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/_defs.h:
+C:/PROGRA~3/MATLAB/SUPPOR~1/3P778C~1.INS/TIC28X~1.INS/TI-CGT~1.LTS/include/machine/_limits.h:
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\eMbEdEdSyStEmS_private.h:
 C:\Users\micha\Desktop\Classes\Junior-Design\Microcontroller\eMbEdEdSyStEmS_ert_rtw\multiword_types.h:
 
