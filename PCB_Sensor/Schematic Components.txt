@@ -1,0 +1,14 @@
+================================================
+ACS712 - bidirectional current sensor
+------------------------------------------------
+Properties:
+ → Must measure DC and AC
+ → A maxium Current reading between 10 - 20 amps
+
+SMT Package:
+ → SOIC 8 or 16
+
+================================================
+CON6 - Headers, Speciality Pin (DigiKey Category)
+------------------------------------------------
+Pick whatever.
